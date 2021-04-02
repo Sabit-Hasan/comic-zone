@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.App-header {
+  background-image: url(./images/photo-1612036781697-175d3edab7ce.jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: contain;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

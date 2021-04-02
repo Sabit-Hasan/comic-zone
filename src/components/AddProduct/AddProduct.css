@@ -1,0 +1,9 @@
+.custom-form{
+    border: 1px solid gray;
+    padding: 25px;
+    margin: 25px;
+}
+
+input[type="file"]{
+    color: transparent;
+}

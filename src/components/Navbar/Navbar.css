@@ -1,0 +1,43 @@
+nav li button{
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: red;
+}
+
+.custom-navbar{
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-link.active{
+    color: red !important;
+}
+
+#navbarNav ul li a{
+    color: black;
+}
+
+
+
+.title{
+    font-size: 26px !important;
+    font-weight: 600 !important;
+}
+
+.login-btn{
+    padding: 10px;
+}
+
+.nav-ul li a {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.login-icon{
+    position: relative;
+    top: 7px;
+}
+
+.login-icon:hover{
+    text-decoration: none;
+}
