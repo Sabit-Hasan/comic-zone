@@ -16,7 +16,7 @@ const AddProduct = () => {
            price: data.price,
            imageURL: imageURL
         };
-        const url = `http://localhost:4000/addComics`;
+        const url = `https://pure-anchorage-11283.herokuapp.com/addComics`;
 
         fetch(url,{
             method: 'POST',
