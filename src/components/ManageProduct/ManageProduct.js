@@ -8,7 +8,7 @@ const ManageProduct = () => {
     const [comics, setComics] = useState([]);
 
     useEffect(() =>{
-        fetch(`http://localhost:4000/getComics`)
+        fetch(`https://pure-anchorage-11283.herokuapp.com/getComics`)
         .then(res => res.json())
         .then(data => setComics(data))
     },[])

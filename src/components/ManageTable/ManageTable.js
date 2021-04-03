@@ -7,7 +7,7 @@ const ManageTable = (props) => {
     const {name, weight, price, _id} = props.comic;
 
     const deleteProduct = (id) =>{
-        fetch(`http://localhost:4000/delete/${id}`,{
+        fetch(`https://pure-anchorage-11283.herokuapp.com/delete/${id}`,{
             method: 'DELETE'
         })
         .then(res => res.json())
