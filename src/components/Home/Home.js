@@ -8,7 +8,7 @@ const Home = () => {
     const [comicItems, setComicItems] = useState([]);
 
     useEffect(()=>{
-        fetch(`https://pure-anchorage-11283.herokuapp.com/getComics/${id}`)
+        fetch('https://pure-anchorage-11283.herokuapp.com/getComics')
         .then(res => res.json())
         .then(data =>setComicItems(data))
     },[])
