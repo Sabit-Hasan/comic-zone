@@ -5,7 +5,7 @@ const CardItems = (props) => {
     const {name, imageURL,price, _id} = props.comicItem;
     return (
         <div className="card m-3" style={{width: '14rem', height: '320px'}}>
-            <img style={{height:'300px'}} src={imageURL} alt=""/>
+            <img style={{height:'210px'}} src={imageURL} alt=""/>
             <div className="card-body">
                 <h6>{name}</h6>
                 <div class="d-flex justify-content-between">
@@ -15,12 +15,6 @@ const CardItems = (props) => {
             </div>
         </div>
 
-
-        
-        // <div className="col-md-3">
-        //     <img style={{height:'300px'}} src={imageURL} alt=""/>
-        //     <h3>{name}</h3>
-        // </div>
     );
 };
 
