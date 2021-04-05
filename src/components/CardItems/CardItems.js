@@ -6,7 +6,7 @@ const CardItems = (props) => {
 
     return (
         <div className="card m-3" style={{width: '14rem', height: '320px'}}>
-            <img style={{height:'210px'}} src={imageURL} alt=""/>
+            <img style={{height:'200px'}} src={imageURL} alt=""/>
             <div className="card-body">
                 <h6>{name}</h6>
                 <div class="d-flex justify-content-between">
