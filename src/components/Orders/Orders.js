@@ -12,7 +12,7 @@ const Orders = () => {
     useEffect(() =>{
         fetch(`https://pure-anchorage-11283.herokuapp.com/getComics/${_id}`)
         .then(res => res.json())
-        .then(data => console.log(data))
+        .then(data => setBook(data))
     },[])
     return (
         <div>

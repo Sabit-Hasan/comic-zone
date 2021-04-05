@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const CardItems = (props) => {
     const {name, imageURL,price, _id} = props.comicItem;
+
     return (
         <div className="card m-3" style={{width: '14rem', height: '320px'}}>
             <img style={{height:'210px'}} src={imageURL} alt=""/>
