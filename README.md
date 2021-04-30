@@ -1,3 +1,11 @@
+This is a dynamic multiple-page website. Where users are able to buy comics.
+
+Features:
+1. There is a manage section where the admin can manage services(CURD operation).
+2. Admin can add new services.
+3.Users can order any services.
+4. User authentication.
+
 There are 14 Components and this are:
 1.Home: Home Design Section.
 2.Admin: Admin Section.
